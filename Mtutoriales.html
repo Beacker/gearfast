@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutoriales</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/slider.css">
+</head>
+<body>
+ <header>
+    <div class="contenedor">
+        <h1 >Manuel Gamarra</h1>
+        <input type="checkbox" id="menu-bar">
+        <label  for="menu-bar"><img src="IMAGENES/icons8-Xbox%20Menu%20Filled-50.png" width="40px" height="40px"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="">Gameplays</a>
+                    <a href="">Contacto</a>
+                </nav>
+            </div>
+</header><br><br><br><br>
+<div id="ti"><p>TUTORIALES</p></div>
+
+<br><br><br>
+<div class="main">
+		<div class="slides">
+            <a href="tarjetap.html"><img src="imagenesT/1.png" alt=""></a>
+            <img src="imagenesT/2.png" alt="">
+			<img src="imagenesT/3.png" alt="">
+			<img src="imagenesT/4.jpg" alt="">
+		</div>
+	</div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+ 
+	$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        
+      effect: "slide",
+        
+      interval: 3000,
+        
+      auto: true,
+        
+      swap: true,
+       
+      pauseOnHover: false,
+       
+      restartDelay: 2500
+        
+    }
+  });
+});
+ 
+	</script>
+</body>
+</html>

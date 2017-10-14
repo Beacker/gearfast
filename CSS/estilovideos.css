@@ -1,0 +1,42 @@
+#banner1 {
+    margin-top: 50px;
+    position: relative;
+}
+#banner1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#banner1 .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+    font-family: impact;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+#ffondo {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+@media (max-width:800px) {
+    #titulo{
+    width: 100%;
+    text-align: center;
+    font-family: impact;
+    font-size: 25px;
+    
+}
+}
